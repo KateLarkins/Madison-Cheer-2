@@ -17,7 +17,7 @@
 
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid" style="background-color:rgb(14,14,40);">
-          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" >
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse" style="background-color:rgb(14,14,40);">
