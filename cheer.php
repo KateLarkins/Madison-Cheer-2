@@ -22,10 +22,10 @@
               <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5Ojf/2wBDAQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCABAADcDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAYBBQIEBwP/xAAsEAABAwMDBAEDBAMAAAAAAAABAgMEAAURBhIhIjFBURMUQmEyUnGBkbHB/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAiEQACAgEDBAMAAAAAAAAAAAAAAQIRQSEiMQMSwfBhcaH/2gAMAwEAAhEDEQA/AOOUUVKUlSglIJJ7ADvXqIRRTZb9A3adamrmw5GdYcjOyNjbmVj4yAUdv1EmrqyaIs07Rhu0yU+0tpp2Q4+0d2UpKglISeM9J/ORip3IHOaKYmdH3F+wyL0gtoiNJ3JDhIU77Ccd/wDtL60KQcLSpJ9EYq3gGNFFFAFPFk0G/Ls0W6JuDEd6Qje23KbKRjJGQRknPvaaRzwCa6FFt8F5MWKjTF+vM1LKW1GVIUwhHGcJ2g9Iz5IH+aZ98kfBb6XnS9ESXY1/Slq3vrDseQ1lTSXgOpPbKd6M8KAwUg4xyC8JTabDfdNh4NNruMduKtPZMd1SnQR+BhYJ/BpQvzCrY67FbhG278JkREXJEkccgKCeQQeerP8AVZyH39RxrPFjNPSLjFbMRwIQo7mgofCokDAxuWkk+h7ro46qVmLwZXC4IvMgPzFuRrPFw3Fit4ylIHCEDtuxgqUeBnz0pOTViTeFSbg7bnoFvaZyluMlbrnSn7Qe48lagByfNNMSwNWSM1s0zcdQ3FIx8kmOtmK0c8hKVjKsHypPPfIqxkXvWjjSo6bRAZdxlLBfCjjyA0lQJ/hWRWJ9RNVHj7EU07ZxVQKVEEEEHBChgj+aK27wJAusv61pxqUpwqeQ4naoLPJyPHJz/dFQ6GoMAgkZAPIPmntWtL9eWmrfbtsP5yG0sQNwcVg4A3ElZOMecYNIdMGl7+bIxNREjJFxlgNszu646fuCR7Pvx/p8hlxJgM2+SzYrSy3OvrrgQ6+MKQwv9jfjcPuX9uDjkZDW7Ehacvlh00pZU3NZfZuEkcKddeCQkg9wQpCMegR55ry0NHt+mNMyNWyylx+RuZhoWrwFFOPwVKSc+kj+c1V4RLmXqwtuKzOlWcSUrWeUyXFOuoI9dewAeBx4qy3SrC9/DC0Vmi3er3YJ0u23Iypf0az8hEx9paR4UFoUDtOQRuChgirCVqe4TLVLXDnrmww0Q/DuSEqfh7ulLqHEgbkhRHV3TkZTzmrjVq03u22vV+nygXJlrdIaSQVBsDqCk+dpJSfaVHvxXNr/ADYbk1xy2RDFZfbCi1u4bUr9aU+05zjtxjjirslG618hXdFS++7JeW/IcW68s5WtZypR9k0V50Vk2FSlRSoKSSCOxFRRQG19fJW02w8+6uM2pSks7ulJUMEgdgcVe6g1g5dZltmRoaIciAwhlLgWVFQQcpPoeffeliigLe7Xoyp0mRbkOwUStxeaQ6SCVHKhxjpzyB4yaqVKKlFSiST3JOTUUUAUUUUB/9k=" alt="logo" height="100px">
                 <div class="navbar-nav">
                     <li class="nav-item">
-                      <a class="nav-link" style="color:goldenrod;" href="index.html">MAHS</a>
+                      <a class="nav-link" style="color:goldenrod;" href="index.php">MAHS</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" style="color:goldenrod;" href="cheer.html">Cheers</a>
+                      <a class="nav-link active" aria-current="page" style="color:goldenrod;" href="cheer.php">Cheers</a>
                     </li>
                     <li>
                       <form class="d-flex search" role="search">
