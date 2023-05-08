@@ -1,0 +1,206 @@
+
+.body {
+    background-color: rgb(20, 21, 58); 
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background-image: url('img/dots.png');
+    background-repeat:no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+  }
+  
+  h2 {
+    color: maroon;
+    font-family: 'Cookie', cursive;
+  }
+  h1 {
+      background-color: #fff;
+      width: 800px;
+      height: 117px;
+      border-radius: 50%;
+      color: maroon;
+      font-family: 'Cookie', cursive;
+  }
+  h5 {
+    color: maroon;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  h4 {
+      color: rgb(154, 13, 13); 
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+      font-style:normal;
+  }
+  
+  
+  .cheer {
+    text-align: center;
+  }
+  .dances {
+    text-align: center;
+  }
+  .stretches {
+    text-align: center;
+  }
+  
+  .ani img:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+  }
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  /* ______________________________________________________________
+  /* #navbar */
+  ______________________________________________________________ */
+  
+  .navbar {
+    width: 100%;
+  }
+  
+  .search {
+  margin-left: 50%;
+  width: 300%;
+  padding-top: 10%;
+  }
+  
+  .nav-item {
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    padding-left: 10%;
+  }
+  
+  .navbar-brand {
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+  }
+  .logo {
+    float:left;
+  }
+  
+  nav a::before {
+    content:'';
+    display: block;
+    height: 2px;
+    width:0%;
+    background-color:maroon;
+  }
+  
+  nav a:hover::before {
+    width:100%;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+    
+  li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  
+  
+  /* Carousel */
+  
+  /* 
+  .carousel .active {
+    opacity: 1 !important;
+    }
+  
+  
+  
+  .carousel-item {
+      position:fixed; 
+      width: 100%; height: 100%;
+      -webkit-transition: opacity 1s;
+      -moz-transition: opacity 1s;
+      -ms-transition: opacity 1s;
+      -o-transition: opacity 1s;
+      transition: opacity 1s;
+  }
+  .carousel-item {
+      background: url(https://i.imgur.com/XVOLpDj.jpeg);
+      background-size: cover;
+      -moz-background-size: cover;
+      height: 500px;
+      border:2px;
+      border-color: white;
+  }
+  .carousel-item {
+      background: url(https://i.imgur.com/RMR0qT9.jpeg);
+      background-size: cover;
+      -moz-background-size: cover;
+      height: 500px;
+      border:2px;
+      border-color: white;
+  }
+  .carousel-item{
+      background: url(https://i.imgur.com/WsDegIv.jpeg);
+      background-size: cover;
+      -moz-background-size: cover;
+      height: 500px;
+      border:2px;
+      border-color: white;
+  
+  }
+  .carousel .active.left {
+    left: 0%;
+    opacity:0%;
+    z-index:2;
+  } */
+  ______________________________________________________________
+  #About
+  ______________________________________________________________
+  
+  .about .content ul li+li {
+    margin-top: 0px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
