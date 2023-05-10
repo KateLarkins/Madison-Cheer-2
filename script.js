@@ -15,3 +15,4 @@ function reveal() {
 
 // To check the scroll position on page load
 reveal();
+
