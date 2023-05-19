@@ -1,3 +1,18 @@
+<?php 
+$host = 'localhost'; // Replace with your database host
+$username = ''; // Replace with your database username
+$password = ''; // Replace with your database password
+$dbname = 'Madison_Cheer'; // Replace with your database name
+
+// Create a connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,8 +25,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:wght@300&display=swap" rel="stylesheet">
 
     <title>MAHS Cheerleading</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
+  <style>
+        
+        .squad-info {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .squad-info img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        
+        .squad-info p {
+            color: #777;
+            font-size: 16px;
+        }
+        
+        .roster {
+            margin-bottom: 50px;
+        }
+        
+        .roster ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .roster li {
+            text-align: center;
+            margin: 0 15px;
+        }
+        
+        .roster .member-name {
+            color: #ff4081;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .contact {
+            text-align: center;
+        }
+        
+        .contact p {
+            color: #555;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    </style>
 
   <body class="body">
 
@@ -28,6 +95,12 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" style="color:goldenrod;" href="cheer.php">Cheers</a>
+                  </li>
+                  <li>
+                        <form action="search.php" method="POST">
+                        <input type="text" name="searchTerm" placeholder="Enter search term">
+                        <button type="submit">Search</button>
+                        </form>
                   </li>
 
             </div>
@@ -46,29 +119,42 @@
         </div> 
       </header>
 
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box-one">
-              
-            </div>
-            </div>
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box-two">
-              <div class="icon"><i class="stretches"></i></div>
-              
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="400">
-            <div class="icon-box-three">
-              <div class="icon"><i class="dances"></i></div>
-          
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
+</head>
+<body>
+    <h1>Cheerleading Squad</h1>
+    
+    <div class="squad-info">
+        <img src="cheerleader_logo.png" alt="Cheerleading Squad Logo">
+        <p>Welcome to our adorable cheerleading squad! We bring joy, spirit, and energy to every performance. Let's cheer together!</p>
+    </div>
+    
+    <div class="roster">
+        <h2>Meet Our Squad</h2>
+        <ul>
+            <li>
+                <img src="cheerleader1.png" alt="Cheerleader 1">
+                <p class="member-name">Emma Johnson</p>
+            </li>
+            <li>
+                <img src="cheerleader2.png" alt="Cheerleader 2">
+                <p class="member-name">Ava Smith</p>
+            </li>
+            <li>
+                <img src="cheerleader3.png" alt="Cheerleader 3">
+                <p class="member-name">Olivia Davis</p>
+            </li>
+            <li>
+                <img src="cheerleader4.png" alt="Cheerleader 4">
+                <p class="member-name">Sophia Brown</p>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="contact">
+        <h2>Contact Information</h2>
+        <p><i class="fas fa-envelope"></i> Email: info@cheerleadingsquad.com</p>
+        <p><i class="fas fa-phone"></i> Phone: 123-456-7890</p>
+    </div>
 
 
   <footer class="text-center text-lg-start " style="background-color: rgb(14,14,40)">
